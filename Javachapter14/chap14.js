@@ -142,6 +142,7 @@ document.write("Out : " + "<br>" + stack.pop() + "<br>")
 
 // Dropdown
 var manufacturers = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
+
 document.write("<select>" + 
     "<option>" + manufacturers[0] + "</option>" +
     "<option>" + manufacturers[1] + "</option>" +
