@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mobile phone lookup</h1>
+    <a href="#" onclick="showAlert()">Click Me</a>
+    <img src="https://cdn.mos.cms.futurecdn.net/CdSqhuDyzkSBvS2cizjC4i.jpg" onclick="mobileAlert()">
+    <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202509/15/qu7JNYJBuxoCRdSD.png" onclick="mobileAlert()">
+    <img src="https://s7d1.scene7.com/is/image/dmqualcommprod/magic-7-pro?fmt=webp-alpha&qlt=85" onclick="mobileAlert()">
+
+    <!-- Table -->
+     <table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Class</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>10</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Mark</td>
+    <td>9</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Jenny</td>
+    <td>5</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>Micheal</td>
+    <td>8</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+</table>
+
+<!-- Image changes to mouseover -->
+<img 
+  src="https://media.istockphoto.com/id/1435226078/photo/front-of-a-white-bmw-m4-parked-on-a-street-with-trees-in-the-background.jpg?s=612x612&w=0&k=20&c=l1IupUrh-_Zbcse-hDkaUAh-qMD82hJspXjnN0IBZlg="
+  onmouseover="changeImage(this)"
+  onmouseout="resetImage(this)"
+>
+
+<!-- Counter -->
+ <h2 id="counter">0</h2>
+
+<button onclick="increase()">Increase</button>
+<button onclick="decrease()">Decrease</button>
+
+</body>
+<script src="chap42.js"></script>
+</html>
